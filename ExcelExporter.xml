@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExcelExporter>
+  <ConfigItem ExcelFile="chinese/时间表.xlsx" SheetName="Sheet1">
+    <ConfigInfo>
+      <Client>TimeTable.txt</Client>
+      <Server />
+    </ConfigInfo>
+    <SourceInfo>
+      <CS ClassName="" Manager="None">
+        <FilePath />
+      </CS>
+      <CPP ClassName="" Manager="None" Capacity="1024" StepSize="512" KeyCount="64" GroupSize="64">
+        <FilePath />
+      </CPP>
+      <Lua Manager="OneKeyMgr">
+        <FilePath>./client/Config/</FilePath>
+      </Lua>
+    </SourceInfo>
+  </ConfigItem>
+</ExcelExporter>
